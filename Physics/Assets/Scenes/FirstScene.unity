@@ -149,8 +149,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 33320465}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.481, z: 0.39}
-  m_LocalScale: {x: 0.76562, y: 0.10076, z: 0.6511716}
+  m_LocalPosition: {x: 0, y: 0.481, z: 0.449}
+  m_LocalScale: {x: 0.76562, y: 0.16351332, z: 0.337919}
   m_Children: []
   m_Father: {fileID: 284642808}
   m_RootOrder: 0
@@ -174,7 +174,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 655f2f1e619d8334682a054bfe063bde, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -507,8 +507,8 @@ GameObject:
   - component: {fileID: 284642806}
   - component: {fileID: 284642805}
   - component: {fileID: 284642804}
-  - component: {fileID: 284642803}
   - component: {fileID: 284642802}
+  - component: {fileID: 284642803}
   m_Layer: 0
   m_Name: Character
   m_TagString: Untagged
@@ -697,7 +697,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ccea9ea98e38942e0b0938c27ed1903e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MotionType: 0
+  m_MotionType: 1
   m_Smoothing: 0
   m_Mass: 1
   m_LinearDamping: 0.01
@@ -754,7 +754,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 655f2f1e619d8334682a054bfe063bde, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -792,7 +792,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 284642801}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.1, y: 1.5, z: 6.54}
+  m_LocalPosition: {x: -1.1, y: 3.16, z: 6.54}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 33320466}
@@ -875,13 +875,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 573220722}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalRotation: {x: 0.25468433, y: -0, z: -0, w: 0.96702427}
+  m_LocalPosition: {x: 0, y: 5.75, z: -0.62}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 29.51, y: 0, z: 0}
 --- !u!1 &718985953
 GameObject:
   m_ObjectHideFlags: 0
